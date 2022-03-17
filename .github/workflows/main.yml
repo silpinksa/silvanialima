@@ -20,5 +20,6 @@ svg_out_path: dist/github-contribution-grid-snake.svg
 with:
 target_branch: output
 build_dir: dist
-env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+env:
+GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
