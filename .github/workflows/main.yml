@@ -6,7 +6,7 @@ workflow_dispatch:
 
 jobs:
 build:
-name: Jobs to update datas
+ name: Jobs to update datas
 runs-on: ubuntun-latest
 steps:
 #Snake Animation
@@ -17,7 +17,7 @@ github_user_name: silvanialima
 svg_out_path: dist/github-contribution-grid-snake.svg
 
 -uses: crazy-max/ghaction-github-pages@v2.1.3
-with:
+ with:
 target_branch: output
 build_dir: dist
 env:
